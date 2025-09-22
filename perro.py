@@ -1,5 +1,6 @@
 class perro: 
-    def __init__ (self, color, color_ojos, altura, longitud, peso):
+    def __init__ (self, nombre, color, color_ojos, altura, longitud, peso):
+        self.nombre = nombre
         self.color = color
         self.color_ojos = color_ojos
         self.altura = altura
@@ -16,7 +17,7 @@ class perro:
         return "El perro ha venido"
     
 if __name__ == "__main__":
-    bobby = perro(marrón, avellana, 50, 80, 20):
+    bobby = perro(bobby, marrón, avellana, 50, 80, 20):
     print(bobby.sentarse())
 
 
