@@ -17,11 +17,9 @@ class perro:
         return "El perro ha venido"
     
 if __name__ == "__main__":
-    bobby = perro(bobby, marrón, avellana, 50, 80, 20):
-    print(bobby.sentarse())
-
-
-
+    perro1 = perro("Bobby", "marrón", "avellana", 50, 80, 20)
+    perro2 = perro("Luna", "blanco", "azul", 45, 75, 25)
+    
 
         
 
