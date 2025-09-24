@@ -7,6 +7,9 @@ class perro:
         self.longitud = longitud
         self.peso = peso
 
+    def __str__(self):
+        return f"Perro: {self.nombre}, Color: {self.color}, Ojos: {self.color_ojos}, Altura: {self.altura}cm, Longitud: {self.longitud}cm, Peso: {self.peso}kg"
+
     def sentarse(self):
         return "El perro se ha sentado"
     def tumbarse(self):
@@ -16,10 +19,7 @@ class perro:
     def venir(self):
         return "El perro ha venido"
     
-if __name__ == "__main__":
-    perro1 = perro("Bobby", "marrón", "avellana", 50, 80, 20)
-    perro2 = perro("Luna", "blanco", "azul", 45, 75, 25)
-    
+
 
         
 
