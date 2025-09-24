@@ -8,7 +8,7 @@ class perro:
         self.peso = peso
 
     def __str__(self):
-        return f"Perro: {self.nombre}, Color: {self.color}, Ojos: {self.color_ojos}, Altura: {self.altura}cm, Longitud: {self.longitud}cm, Peso: {self.peso}kg"
+        return f"Perro: se llama {self.nombre}, es de color {self.color}, sus Ojos son de color {self.color_ojos}, mide {self.altura}cm de altira, {self.longitud}cm de largo, y pesa {self.peso} kg"
 
     def sentarse(self):
         return "El perro se ha sentado"
